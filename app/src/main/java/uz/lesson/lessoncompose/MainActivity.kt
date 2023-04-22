@@ -47,35 +47,10 @@ class MainActivity : ComponentActivity() {
                         }
                         CurrentScreen()
                     }
-
                 }
             }
         }
     }
 
-
-}
-
-@Composable
-fun Greeting(name: String) {
-        Box(
-            modifier = Modifier.fillMaxSize(),
-        ) {
-            Row(modifier = Modifier
-                .fillMaxWidth(0.8f)
-                .height(50.dp),
-                verticalAlignment = Alignment.Bottom,
-                horizontalArrangement = Arrangement.SpaceEvenly
-            ) {
-
-            }
-        }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    LessonComposeTheme {
-        Greeting("Android")
-    }
+    
 }

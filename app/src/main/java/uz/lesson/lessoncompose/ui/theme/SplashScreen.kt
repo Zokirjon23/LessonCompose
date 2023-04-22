@@ -50,5 +50,6 @@ class SplashScreen : AndroidScreen() {
                 Text(text = "Navigate to")
             }
         }
+
     }
 }
