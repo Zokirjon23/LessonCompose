@@ -32,13 +32,11 @@ class SplashScreen : AndroidScreen() {
         SplashContent()
     }
 
-
     @Preview
     @Composable
     fun SplashPreview() {
         SplashContent()
     }
-
 
     @Composable
     fun SplashContent() {
